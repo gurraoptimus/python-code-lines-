@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # the pygame module
 pygame.init()
 # load and set the logo
@@ -16,3 +17,25 @@ mulx,muly = (1,1)
 running = True
 # main loop
 while running:
+# 
+for event in pygame.event.get():
+=======
+# the pygame module
+pygame.init()
+# load and set the logo
+
+pygame.set_caption("Program")
+
+# create a surface on screen that hos the size of 240 x 180
+SIZE = (700,700)
+screen = pygame.display.set_mode(SIZE)
+
+image1 = pygame.transform.scale(pygame.image.load("cmd.png"), (29*3, 48*3))
+pos = [0,0]
+mulx,muly = (1,1)
+
+# deflne a varioble to control the main loop
+running = True
+# main loop
+while running:
+>>>>>>> 0330e356b1364dc40f57638c470c50cd9c608161
