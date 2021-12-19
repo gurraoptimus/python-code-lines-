@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # the pygame module
 pygame.init()
 # load and set the logo
@@ -38,4 +38,5 @@ mulx,muly = (1,1)
 running = True
 # main loop
 while running:
->>>>>>> 0330e356b1364dc40f57638c470c50cd9c608161
+# 
+for event in pygame.event.get():
