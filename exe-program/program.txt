@@ -2,7 +2,7 @@
 pygame.init()
 # load and set the logo
 
-pygame.set_caption("Program
+pygame.set_caption("Program")
 
 # create a surface on screen that hos the size of 240 x 180
 SIZE = (700,700)
