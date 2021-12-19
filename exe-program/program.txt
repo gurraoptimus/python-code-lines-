@@ -15,4 +15,4 @@ mulx,muly = (1,1)
 # deflne a varioble to control the main loop
 running = True
 # main loop
-while
+while running:
