@@ -4,9 +4,15 @@ pygame.init()
 
 pygame.set_caption("Program
 
+# create a surface on screen that hos the size of 240 x 180
 SIZE = (700,700)
 screen = pygame.display.set_mode(SIZE)
 
 image1 = pygame.transform.scale(pygame.image.load("cmd.png"), (29*3, 48*3))
 pos = [0,0]
 mulx,muly = (1,1)
+
+# deflne a varioble to control the main loop
+running = True
+# main loop
+while
