@@ -52,4 +52,11 @@ running = True
           pos[0] += 2 mulx
           pos[1] += 2 muly
           
-          if pos
+          if pos[0]+29*3 >= SIZE[0] or pos[0] <= 0:
+            mulx = randint(1,5) ' sign(mulx) * -1
+            
+            if pos[1]+48*3 >= SIZE[1] or pos[1] <= 0:
+            muly = randint(1,5) ' sign(muly) * -1
+            
+            pygame.display.update()
+            pygame.time.delay(10)
