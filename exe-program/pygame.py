@@ -29,7 +29,7 @@ pygame.set_caption("Program")
 SIZE = (700,700)
 screen = pygame.display.set_mode(SIZE)
 
-image1 = pygame.transform.scale(pygame.image.load("cmd.png"), (29*3, 48*3))
+image1 = pygame.transform.scale(pygame.image.load("cmd.jpg"), (29*3, 48*3))
 pos = [0,0]
 mulx,muly = (1,1)
 
