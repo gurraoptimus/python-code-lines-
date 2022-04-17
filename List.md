@@ -1,5 +1,4 @@
 # python-code-list. 
-
 # Mapp [exe-program](exe-program)
 ### //================
 ### // cmd.jpg
