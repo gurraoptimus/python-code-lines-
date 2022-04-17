@@ -8,6 +8,6 @@
 
 # Mapp [Minecraft-3D](Minecraft-3D)
 ### //================
-### // map [assets](assets)
+### // mapp assets
 ### // minecraft.py
 ### //================
