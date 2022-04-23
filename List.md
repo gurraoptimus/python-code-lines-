@@ -11,7 +11,7 @@
 ### // minecraft.py
 ### //================
 
-# Mapp [pygame](pong.py)
+# Mapp [pygame](pygame)
 ### //================
 ### // pong.py
 ### //================
