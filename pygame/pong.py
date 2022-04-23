@@ -12,3 +12,11 @@ def main():
                 if event.tye == pygame.QUIT:
                     run = False
                     break
+
+
+    pygame.quit()
+
+
+
+if _name_ == "_main_":
+    main()
