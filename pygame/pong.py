@@ -8,8 +8,7 @@ def main():
     run = True
     clock = pygame.time.Clock()
 
-    while run:
-for event in pygame.event.get():
+    while run:for event in pygame.event.get():
         if event.tye == pygame.QUIT:
             run = False
             break
