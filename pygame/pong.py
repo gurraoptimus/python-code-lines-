@@ -8,7 +8,7 @@ pygame.display.set_caption("Pong")
 
 FPS = 60
 
-def
+def draw(win):
 
 def main():
     run = True
