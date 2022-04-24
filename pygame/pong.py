@@ -12,7 +12,7 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
 def draw(win):
-    win.fill()
+    win.fill(WHITE)
     pygame.display.update()
 
 
@@ -24,11 +24,11 @@ def main():
         clock.tick(FPS)
         for event in pygame.event.get():
             if event.tye == pygame.QUIT:
-                run = True
+                run = False
                 break
 
 
-    pygame.QUIT()
+    pygame.quit()
 
 
 if __name__ == "_main_":
