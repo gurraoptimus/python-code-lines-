@@ -24,7 +24,7 @@ def main():
         clock.tick(FPS)
         for event in pygame.event.get():
             if event.tye == pygame.QUIT:
-                run = False
+                run = True
                 break
 
 
