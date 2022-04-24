@@ -8,7 +8,12 @@ pygame.display.set_caption("Pong")
 
 FPS = 60
 
+
+
 def draw(win):
+win.fill()
+
+
 
 def main():
     run = True
@@ -19,7 +24,7 @@ def main():
         for event in pygame.event.get():
         if event.tye == pygame.QUIT:
             run = False
-             break
+            break
 
 
     pygame.quit()
