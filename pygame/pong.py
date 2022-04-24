@@ -28,7 +28,7 @@ def main():
                 break
 
 
-    pygame.quit()
+    pygame.QUIT()
 
 
 if __name__ == "_main_":
