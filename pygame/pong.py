@@ -25,7 +25,7 @@ def main():
         for event in pygame.event.get():
             if event.tye == pygame.QUIT:
                 run = False
-            break
+                break
 
 
     pygame.quit()
