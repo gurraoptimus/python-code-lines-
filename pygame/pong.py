@@ -6,16 +6,16 @@ pygame.display.set_caption("Pong")
 
 def main():
     run = True
+    clock = pygame.time.Clock()
 
-    whille run:
-        for event in pygame.event.get():
-                if event.tye == pygame.QUIT:
-                    run = False
-                    break
+    while run:
+for event in pygame.event.get():
+        if event.tye == pygame.QUIT:
+            run = False
+            break
 
 
     pygame.quit()
-
 
 
 if _name_ == "_main_":
