@@ -5,14 +5,18 @@ WID = pygame.display.set_mode((WIDTH, HIGHT))
 pygame.display.set_caption("Pong")
 
 
-
 FPS = 60
 
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 
+
+
+class Paddel:
+
+
 def draw(win):
-    win.fill(WHITE)
+    win.fill(BLACK)
     pygame.display.update()
 
 
