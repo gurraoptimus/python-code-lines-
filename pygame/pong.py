@@ -23,12 +23,13 @@ class Paddle:
 
 def draw(self, win):
     pygame.draw.rect(
-        win,self.COLOR(self.x self.y, self.width, self.height))
+    win,self.COLOR(self.x self.y, self.width, self.height))
 
 
 def draw(win, paddle):
     win.fill(BLACK)
     paddle.draw(win)
+
     pygame.display.update()
 
 
@@ -42,7 +43,7 @@ def main():
 
     while run:
         clock.tick(FPS)
-        draw(WIN, [left_paddle right_paddle])
+        draw(WIN,[left_paddle right_paddle])
         
         for event in pygame.event.get():
             if event.tye == pygame.QUIT:
