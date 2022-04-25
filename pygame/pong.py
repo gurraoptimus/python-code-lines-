@@ -13,6 +13,8 @@ BLACK = (0, 0, 0)
 
 
 class Paddel:
+    def _init_(self, x, y, width, height):
+        self.x
 
 
 def draw(win):
