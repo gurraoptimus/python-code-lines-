@@ -12,7 +12,7 @@ BLACK = (0, 0, 0)
 
 
 
-class Paddel:
+class Paddle:
     COLOR = WHITE
 
     def _init_(self, x, y, width, height):
@@ -33,6 +33,8 @@ def draw(win):
 def main():
     run = True
     clock = pygame.time.Clock()
+
+left_paddle = Paddel(10, HIGHT//2 -)
 
     while run:
         clock.tick(FPS)
