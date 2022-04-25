@@ -22,12 +22,12 @@ class Paddle:
         self.height = height
 
 def draw(self,win):
-    pygame.draw.rect
-    (self.COLOR(self.x self.y, self.width, self.height))
+    pygame.draw.rect(self.COLOR(self.x self.y, self.width, self.height))
 
 
 def draw(win, paddle):
     win.fill(BLACK)
+    paddle.draw(win)
     pygame.display.update()
 
 
