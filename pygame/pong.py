@@ -13,13 +13,16 @@ BLACK = (0, 0, 0)
 
 
 class Paddel:
+    COLOR = WHITE
+
     def _init_(self, x, y, width, height):
         self.x = x
         self.y = y
         self.width = width
         self.height = height
 
-def draw()
+def draw(self,win):
+    pygame.draw.rect(self.COLOR(self.x self.y, self.width, self.height))
 
 
 def draw(win):
