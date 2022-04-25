@@ -22,7 +22,7 @@ class Paddel:
         self.height = height
 
 def draw(self,win):
-    pygame.draw.rect(self.COLOR(self.x self.y, self.width, self.height))
+    pygame.draw.rect (self.COLOR (self.x self.y, self.width, self.height))
 
 
 def draw(win):
