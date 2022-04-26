@@ -45,7 +45,7 @@ def main():
         clock.tick(FPS)
         draw(WIN, left_paddle) [right_paddle]
         
-        for Event in pygame.Event.get():
+        for event in pygame.event.get():
             if Event.type == pygame.QUIT:
                 run = False
                 break
