@@ -6,7 +6,7 @@ WIDTH, HIGHT = 700, 500
 
 WIN = pygame.display.set_mode((WIDTH, HIGHT))
 
-pygame.display.set_caption("PYgame(p0nG)")
+pygame.display.set_caption("PYgame (p0nG)")
 
 
 
