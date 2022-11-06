@@ -50,7 +50,7 @@ def move(self, up=True):
     def draw(win, paddles):
         WIN.fill(BLACK)
         
-        for paddle in paddles;
+        for paddle in paddles:
             paddle.draw(WIN)
 
     pygame.display.update()
