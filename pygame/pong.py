@@ -47,9 +47,9 @@ class Paddle:
 def move(self, up=True):
 
 
-def draw(win, paddles):
+    def draw(win, paddles):
     win.fill(BLACK)
-for paddle in paddles:
+    for paddle in paddles:
 pygame.display.update()
 
 
