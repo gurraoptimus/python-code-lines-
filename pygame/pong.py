@@ -1,6 +1,6 @@
 import pygame
 
-from main import draw_window
+from main import draw,WIN
 
 WIDTH, HIGHT = 700, 500
 
