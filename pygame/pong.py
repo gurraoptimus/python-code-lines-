@@ -82,7 +82,7 @@ def main():
 
         draw(WIN, right_paddle)
         
-        pygame.display.update()
+
 
         for Event in pygame.event.get():
 
@@ -97,6 +97,7 @@ def main():
 
 
     pygame.quit()
+
 
 
 
