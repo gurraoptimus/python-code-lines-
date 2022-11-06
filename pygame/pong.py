@@ -27,7 +27,6 @@ PADDLE_WIDTH, PADDLE_HIGHT  = 20, 100
 
 
 class Paddle:
-
     COLOR = WHITE
     VEL = 4
 
@@ -49,7 +48,7 @@ def move(self, up=True):
 
 
 
-def draw(win, paddle):
+def draw(win, paddles):
     win.fill(BLACK)
     
     for paddle in paddles:
