@@ -82,10 +82,6 @@ def main():
 
         draw_window(WIN, right_paddle)
 
-        pygame.display.update()
-
-        
-
         for Event in pygame.event.get():
 
             if Event.type == pygame.QUIT:
@@ -99,5 +95,6 @@ def main():
 
 
     pygame.quit()
+
 
 main()
