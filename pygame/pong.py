@@ -78,9 +78,9 @@ def main():
 
         clock.tick(FPS)
 
-        draw_window(WIN, left_paddle)
+        draw(WIN, left_paddle)
 
-        draw_window(WIN, right_paddle)
+        draw(WIN, right_paddle)
 
         for Event in pygame.event.get():
 
