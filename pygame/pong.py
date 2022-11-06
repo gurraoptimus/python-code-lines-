@@ -74,13 +74,13 @@ def main():
 
     while run:
 
-        WIN.fill(BLACK)
+        win.fill(BLACK)
 
         clock.tick(FPS)
 
-        draw(WIN, left_paddle)
+        draw(win, left_paddle)
 
-        draw(WIN, right_paddle)
+        draw(win, right_paddle)
 
         pygame.display.update()
 
