@@ -50,8 +50,8 @@ def move(self, up=True):
     def draw(win, paddles):
         win.fill(BLACK)
         
-        for paddle in paddle:
-            paddle.draw(WIN)
+        for paddle in paddles:
+            paddle.draw(win)
 
     pygame.display.update()
 
