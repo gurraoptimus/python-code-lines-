@@ -48,10 +48,10 @@ def move(self, up=True):
 
 
     def draw(win, paddles):
-        win.fill(BLACK)
+        WIN.fill(BLACK)
         
-        for paddle in paddles:
-            paddle.draw(win)
+        for paddle in paddles;
+            paddle.draw(WIN)
 
     pygame.display.update()
 
@@ -74,13 +74,13 @@ def main():
 
     while run:
 
-        win.fill(BLACK)
+        WIN.fill(BLACK)
 
         clock.tick(FPS)
 
-        draw(win, left_paddle)
+        draw(WIN, left_paddle)
 
-        draw(win, right_paddle)
+        draw(WIN, right_paddle)
 
         pygame.display.update()
 
