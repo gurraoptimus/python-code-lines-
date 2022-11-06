@@ -1,6 +1,6 @@
 import pygame
 
-from pong import draw,WIN
+from main import draw_window
 
 WIDTH, HIGHT = 700, 500
 
@@ -78,9 +78,9 @@ def main():
 
         clock.tick(FPS)
 
-        draw(WIN, left_paddle)
+        draw_window(WIN, left_paddle)
 
-        draw(WIN, right_paddle)
+        draw_window(WIN, right_paddle)
         
 
 
