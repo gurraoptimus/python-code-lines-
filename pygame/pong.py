@@ -42,20 +42,21 @@ class Paddle:
 
     def draw(self, win):
 
-        pygame.draw.rect(win,self.COLOR,(self.x, self.y, self.width, self.height))
+        pygame.draw.rect(
+            win,self.COLOR,(self.x, self.y, self.width, self.height))
 
-
+    def move(self, up=True):
+        
 
 
 
 def draw(win, paddle):
+    win.fill(BLACK)
 
-    paddle.draw(win)
-
-
-
-
-
+   for paddle in paddles:
+   paddle.draw(win)
+    
+    pygame.display.update()
 
 
 def main():
@@ -101,11 +102,5 @@ def main():
 
 
     pygame.quit()
-
-
-
-
-
-
 
 main()
