@@ -28,5 +28,7 @@ while True:
     screen.fill("black")
     # draw snake 
     [pg.draw.rect(screen, "green", segment) for segment in segments]
+    # move snake 
+    snake.move_ip(
     pg.display.fill()
     Clock.tick(60)
