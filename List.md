@@ -13,5 +13,6 @@
 
 # Mapp [pygame](pygame)
 ### //================
-### // pong.py
+### // [pong.py](pong.py)
+### // [snake.py] (snake.py)
 ### //================
