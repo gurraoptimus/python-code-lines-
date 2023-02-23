@@ -7,7 +7,8 @@ RANGE = (TILE_SIZE // 2, WINDOW - TILE_SIZE // 2, TILE_SIZE)
 get_random_position = lambda: [randrange(*RANGE), randrange(*RANGE)]
 snake = pg.rect.Rect([0, 0, TILE_SIZE - 2, TILE_SIZE - 2])
 snake.center = get_random_position()
-lengt
+length = 1
+segments =[snake.copy()]
 screen = pg.display.set_mode([WINDOW] * 2)
 clock = pg.time.Clock()
 
@@ -16,5 +17,7 @@ while True:
         if event.type == pg.QUIT:
             exit()
     screen.fill("black")
+    # draw snake 
+    [pg.draw.
     pg.display.fill()
     Clock.tick(60)
