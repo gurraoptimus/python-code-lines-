@@ -2,7 +2,8 @@ import pygame as pg
 from random import randrange
 
 WINDOW = 1000
-TI
+TILE_SIZE = 50
+
 screen = pg.display.set_mode([WINDOW] * 2)
 clock = pg.time.Clock()
 
