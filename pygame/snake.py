@@ -10,7 +10,7 @@ snake.center = get_random_position()
 length = 1
 segments =[snake.copy()]
 screen = pg.display.set_mode([WINDOW] * 2)
-clock = pg.time.Clock()
+Clock = pg.time.Clock()
 
 while True:
     for event in pg.event.get():
