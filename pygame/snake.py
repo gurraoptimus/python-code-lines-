@@ -33,5 +33,5 @@ while True:
     snake.move_ip(snake_dir)
     segments.append(snake.copy())
     segments = segments[-length:]
-    pg.display.fill()
+    pg.display.flip()
     Clock.tick(60)
