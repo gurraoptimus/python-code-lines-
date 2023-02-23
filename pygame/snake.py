@@ -18,7 +18,9 @@ while True:
         if event.type == pg.QUIT:
             exit()
         if event.type == pg.KEYDOWN:
-            if event.key == pg.K_w
+            if event.key == pg.K_w:
+                snake_dir = (0, TILE_SIZE)
+            if
     screen.fill("black")
     # draw snake 
     [pg.draw.rect(screen, "green", segment) for segment in segments]
