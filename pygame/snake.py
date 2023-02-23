@@ -21,7 +21,8 @@ while True:
             if event.key == pg.K_w:
                 snake_dir = (0, TILE_SIZE)
             if event.key == pg.k_s:
-                sanke_
+                sanke_dir = (0, TILE_SIZE)
+            if 
     screen.fill("black")
     # draw snake 
     [pg.draw.rect(screen, "green", segment) for segment in segments]
