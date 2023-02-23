@@ -20,10 +20,11 @@ while True:
         if event.type == pg.KEYDOWN:
             if event.key == pg.K_w:
                 snake_dir = (0, TILE_SIZE)
-            if event.key == pg.k_s:
+            if event.key == pg.K_s:
                 sanke_dir = (0, TILE_SIZE)
-            if event.key == pg.k_a:
-                
+            if event.key == pg.K_a:
+                snake_dir = (0, TILE_SIZE)
+            if event.key == pg.K_d:
     screen.fill("black")
     # draw snake 
     [pg.draw.rect(screen, "green", segment) for segment in segments]
