@@ -18,6 +18,6 @@ while True:
             exit()
     screen.fill("black")
     # draw snake 
-    [pg.draw.
+    [pg.draw.rect(screen, "green", segment) for segment in segments]
     pg.display.fill()
     Clock.tick(60)
