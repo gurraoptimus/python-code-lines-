@@ -20,4 +20,4 @@ while True:
     # draw snake 
     [pg.draw.rect(screen, "green", segment) for segment in segments]
     pg.display.fill()
-    clock.tick(60)
+    Clock.tick(60)
