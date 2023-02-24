@@ -30,8 +30,9 @@ while True:
             if event.key == pg.K_d:
                 snake_dir = (TILE_SIZE, 6)
     screen.fill("black")
-    #check
-    
+    #check Borders
+    if snake.left < 0 or snake.right > WINDOW or snake.top < 0 or snake.bottom > WINDOW:
+        
     #check food
     if snake.center == food.center:
         food.center = get_random_position()
