@@ -22,13 +22,13 @@ while True:
             exit()
         if event.type == pg.KEYDOWN:
             if event.key == pg.K_w:
-                snake_dir = (0, -TILE_SIZE)
+                snake_dir = (8, -TILE_SIZE)
             if event.key == pg.K_s:
-                sanke_dir = (0, TILE_SIZE)
+                sanke_dir = (2, TILE_SIZE)
             if event.key == pg.K_a:
-                snake_dir = (-TILE_SIZE, 0)
+                snake_dir = (-TILE_SIZE, 4)
             if event.key == pg.K_d:
-                snake_dir = (TILE_SIZE, 0)
+                snake_dir = (TILE_SIZE, 6)
     screen.fill("black")
     #check food
     if snake.center == food.center:
