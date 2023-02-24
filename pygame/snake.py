@@ -30,10 +30,11 @@ while True:
             if event.key == pg.K_d:
                 snake_dir = (TILE_SIZE, 0)
     screen.fill("black")
+    #ch
     # draw food
-    pg.draw
+    pg.draw.rect(screen, 'red', food)
     # draw snake 
-    [pg.draw.rect(screen, "green", segment) for segment in segments]
+    [pg.draw.rect(screen, 'green', segment) for segment in segments]
     # move snake 
     time_now = pg.time.get_ticks()
     if time_now - time > time_step:
