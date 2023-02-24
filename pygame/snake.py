@@ -20,7 +20,7 @@ while True:
             exit()
         if event.type == pg.KEYDOWN:
             if event.key == pg.K_w:
-                snake_dir = (0, TILE_SIZE)
+                snake_dir = (0, -TILE_SIZE)
             if event.key == pg.K_s:
                 sanke_dir = (0, TILE_SIZE)
             if event.key == pg.K_a:
