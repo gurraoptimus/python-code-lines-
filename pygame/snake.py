@@ -31,7 +31,7 @@ while True:
                 snake_dir = (TILE_SIZE, 0)
     screen.fill("black")
     #check food
-     if snake.center == food.center:
+    if snake.center == food.center:
         food.center = get_random_position()
         length += 1
     # draw food
