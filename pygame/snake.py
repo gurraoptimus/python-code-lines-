@@ -31,7 +31,7 @@ while True:
                 snake_dir = (TILE_SIZE, 0)
     screen.fill("black")
     #check food
-    if snake.center == 
+    # if snake.center ==
     # draw food
     pg.draw.rect(screen, 'red', food)
     # draw snake 
