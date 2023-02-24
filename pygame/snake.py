@@ -12,7 +12,7 @@ segments = [snake.copy()]
 snake_dir = (0, 0)
 time, time_step = 0, 110
 food = snake.copy()
-fo
+food.cent
 screen = pg.display.set_mode([WINDOW] * 2)
 Clock = pg.time.Clock()
 
