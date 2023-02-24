@@ -24,7 +24,7 @@ while True:
             if event.key == pg.K_w:
                 snake_dir = (8, -TILE_SIZE)
             if event.key == pg.K_s:
-                sanke_dir = (2, TILE_SIZE)
+                snake_dir = (2, TILE_SIZE)
             if event.key == pg.K_a:
                 snake_dir = (-TILE_SIZE, 4)
             if event.key == pg.K_d:
