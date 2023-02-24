@@ -32,11 +32,11 @@ while True:
     screen.fill("black")
     #check Borders
     if snake.left < 0 or snake.right > WINDOW or snake.top < 0 or snake.bottom > WINDOW:
-        
+     snake   
     #check food
     if snake.center == food.center:
-        food.center = get_random_position()
-        length += 1
+            food.center = get_random_position()
+            length += 1
     # draw food
     pg.draw.rect(screen, 'red', food)
     # draw snake 
