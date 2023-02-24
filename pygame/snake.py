@@ -32,7 +32,7 @@ while True:
     screen.fill("black")
     #check food
      if snake.center == food.center:
-        food.center = get_rendom_position()
+        food.center = get_random_position()
         length += 1
     # draw food
     pg.draw.rect(screen, 'red', food)
