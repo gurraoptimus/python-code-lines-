@@ -35,8 +35,8 @@ while True:
      snake   
     #check food
     if snake.center == food.center:
-            food.center = get_random_position()
-            length += 1
+        food.center = get_random_position()
+        length += 1
     # draw food
     pg.draw.rect(screen, 'red', food)
     # draw snake 
