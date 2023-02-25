@@ -22,17 +22,17 @@ while True:
             exit()
         if event.type == pg.KEYDOWN:
             if event.key == pg.K_w:
-                snake_dir = (8, -TILE_SIZE)
+                snake_dir = (0, -TILE_SIZE)
             if event.key == pg.K_s:
-                snake_dir = (2, TILE_SIZE)
+                snake_dir = (0, TILE_SIZE)
             if event.key == pg.K_a:
-                snake_dir = (-TILE_SIZE, 4)
+                snake_dir = (-TILE_SIZE, 0)
             if event.key == pg.K_d:
-                snake_dir = (TILE_SIZE, 6)
+                snake_dir = (TILE_SIZE, 0)
     screen.fill("black")
     #check Borders
     if snake.left < 0 or snake.right > WINDOW or snake.top < 0 or snake.bottom > WINDOW:
-     snake   
+     snake  
     #check food
     if snake.center == food.center:
         food.center = get_random_position()
