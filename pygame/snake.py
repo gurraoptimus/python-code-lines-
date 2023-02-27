@@ -31,8 +31,8 @@ while True:
                 snake_dir = (TILE_SIZE, 0)
     screen.fill("black")
     #check Borders and selfieating
-    self_eating = 
-    if snake.left < 0 or snake.right > WINDOW or snake.top < 0 or snake.bottom > WINDOW:
+    self_eating = pg.Rect.collidelist(snake, segments[:-1] != -1
+    if snake.left < 0 or snake.right > WINDOW or snake.top < 0 or snake.bottom > WINDOW or selfeating:
          snake.center, food.center = get_random_position(), get_random_position()
     length, snake_dir = 1, (0, 0)
     segments = [snake.copy()]
