@@ -31,7 +31,7 @@ while True:
                 snake_dir = (TILE_SIZE, 0)
     screen.fill("black")
     #check Borders and selfieating
-    self_
+    self_eating = 
     if snake.left < 0 or snake.right > WINDOW or snake.top < 0 or snake.bottom > WINDOW:
          snake.center, food.center = get_random_position(), get_random_position()
     length, snake_dir = 1, (0, 0)
