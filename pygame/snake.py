@@ -32,7 +32,9 @@ while True:
     screen.fill("black")
     #check Borders
     if snake.left < 0 or snake.right > WINDOW or snake.top < 0 or snake.bottom > WINDOW:
-     snake.center, food.center = get_random_position(), get_random_position()
+         snake.center, food.center = get_random_position(), get_random_position()
+        length, snake_dir = 1, (0, 0)
+        #seg
     #check food
     if snake.center == food.center:
         food.center = get_random_position()
