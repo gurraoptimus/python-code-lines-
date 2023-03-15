@@ -22,8 +22,8 @@
 #else:
 #print("det är lagom Temperatur")
 
-#import datetime
-#born = input("när är du född:" )
-#born = int(born)
-#ct = datetime.datetime.now()
-#print("jag är:", ct.year - born, "år" )
+import datetime
+born = input("när är du född:" )
+born = int(born)
+ct = datetime.datetime.now()
+print("jag är:", ct.year - born, "år" )
