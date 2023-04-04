@@ -1,3 +1,3 @@
-name = input("name: /n")
+name = input ("Name:")(end="/n")
 
 print(12* name)
