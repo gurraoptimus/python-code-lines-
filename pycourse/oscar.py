@@ -1,1 +1,3 @@
-name = input("name: ", ct.year)
+name = input("name: /n")
+
+print(12* name)
