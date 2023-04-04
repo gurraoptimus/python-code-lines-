@@ -1,0 +1,1 @@
+input("oscar", ct.year)
