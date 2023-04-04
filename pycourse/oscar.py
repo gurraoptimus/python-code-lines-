@@ -1,3 +1,2 @@
-a = input("Name:"), (end=/"n")
-
-print(12* a)
+for name in range(12):
+    name = int(input,name)
