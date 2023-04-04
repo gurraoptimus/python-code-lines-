@@ -1,1 +1,1 @@
-input("oscar", ct.year)
+name = input("name: ", ct.year)
