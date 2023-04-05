@@ -3,10 +3,10 @@
 # ar = 2023 -b
 # print(ar)
 
-#import datetime
-#a = input("vad är ditt namn:")
-#b = int(input("när är du född:"))
-#ct = datetime.datetime.now()
-#ar = ct.year-b
-#for i in range(12):
-#    print(i+1,a,ar,ct.year)
+import datetime
+n = input("vad är ditt namn:")
+f = int(input("när är du född:"))
+ct = datetime.datetime.now()
+ar = ct.year-f
+for i in range(100):
+   print(i+1,n,ar,ct.year)
