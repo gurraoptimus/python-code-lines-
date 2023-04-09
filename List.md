@@ -23,5 +23,12 @@
 ### // calculator.py
 ### // list.py
 ### // mode.py
-### // summa.beräking.py
+### // summa.beraking.py
+### // game.py
+### // gummiboll.py
+### // forloop.py
+### // datetineyear.py
+### // potensraking.py
+### // ps.py
+### // test.py
 ### //================
