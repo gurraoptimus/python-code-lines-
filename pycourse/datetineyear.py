@@ -12,5 +12,10 @@
 #    print(i+1,n,ar,ct.year)
 
 import datetime
-dt=datetime.datetime.now()
-n = input("vilken dag och mån & år dth:")
+
+ar =int(input("år?")
+ma =int(input("ma:")
+d =int(input("days:")
+dt =datetime.datetime.now()
+d =datetime.date(ar,ma,d)-dt.date).days
+print(dk)
