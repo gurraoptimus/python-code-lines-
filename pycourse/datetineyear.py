@@ -11,7 +11,7 @@
 # for i in range(100):
 #    print(i+1,n,ar,ct.year)
 
-import datetime
+# import datetime
 
 # a = input("vad är ditt namn:")
 # b = int(input("när är du född:"))
