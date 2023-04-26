@@ -17,6 +17,11 @@
 ### // snake.py
 ### //================
 
+# Mapp [unicode](unicode)
+### //================
+### // unicode.py
+### //================
+
 # Mapp [pycourse](pycourse)
 ### //================
 ### // basic.py
